@@ -14,7 +14,7 @@ app.get('/Economist', function(req,  res){
     res.sendFile(__dirname + '/indexfu.html')
 });
 
-app.get('/guestdook', function(req,  res){
+app.get('/guestbook', function(req,  res){
     res.sendFile(__dirname + '/button.html')
 });
 
