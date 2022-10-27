@@ -1,11 +1,27 @@
-.btnhome{
-    width:120px;
-    height: 40px;
+/* 홈페이지의 버튼*/
+.btnhome1{
+    width:130px;
+    height: 50px;
     background-color:#004fff;
     color:#fff;
     box-shadow: 0 4px
     16px rgba(0,79,255,0.3);
-    font: size 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    left:25%;
+    transform: translate(-50%,-50%);
+}
+
+.btnhome2{
+    width:130px;
+    height: 50px;
+    background-color:#004fff;
+    color:#fff;
+    box-shadow: 0 4px
+    16px rgba(0,79,255,0.3);
+    font-size: 14px;
     font-weight: bold;
     border-radius: 20px;
     position: absolute;
@@ -13,6 +29,107 @@
     transform: translate(-50%,-50%);
 }
 
+.btnhome3{
+    width:130px;
+    height: 50px;
+    background-color:#004fff;
+    color:#fff;
+    box-shadow: 0 4px
+    16px rgba(0,79,255,0.3);
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    left:75%;
+    transform: translate(-50%,-50%);
+}
+/* 프로젝트 페이지의 버튼--------------------------------------------*/
+.btnpj1{
+    width:250px;
+    height: 50px;
+    background-color:#004fff;
+    color:#fff;
+    box-shadow: 0 4px
+    16px rgba(0,79,255,0.3);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    left:25%;
+    transform: translate(-50%,-50%);
+}
+
+.btnpj2{
+    width:250px;
+    height: 50px;
+    background-color:#004fff;
+    color:#fff;
+    box-shadow: 0 4px
+    16px rgba(0,79,255,0.3);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.btnpj3{
+    width:250px;
+    height: 50px;
+    background-color:#004fff;
+    color:#fff;
+    box-shadow: 0 4px
+    16px rgba(0,79,255,0.3);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    left:75%;
+    transform: translate(-50%,-50%);
+}
+
+/* 프로젝트의 설명 버튼------------------------------------------*/
+.btnpjs1{
+    width:230px;
+    height: 200px;
+    background-color:#010924;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    left:25%;
+    transform: translate(-50%,-50%);
+}
+
+.btnpjs2{
+    width:230px;
+    height: 200px;
+    background-color:#010924;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.btnpjs3{
+    width:230px;
+    height: 200px;
+    background-color:#010924;
+    color:#fff;
+    font-size:  20px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    left:75%;
+    transform: translate(-50%,-50%);
+}
+
+/* 경제페이지의 버튼-----------------------------------*/
 .btnfu{
     width:120px;
     height: 40px;
@@ -20,37 +137,37 @@
     color:#fff;
     box-shadow: 0 4px
     16px rgba(0,79,255,0.3);
-    font: size 16px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 20px;
     position: absolute;
     left:50%;
     transform: translate(-50%,-50%);
 }
-
+/* 인스타 버튼-------------------------------------------*/
 .btnins{
-    width:120px;
+    width:140px;
     height: 40px;
     background-color:#003cbd;
     color:#fff;
     box-shadow: 0 4px
     16px rgba(0,79,255,0.3);
-    font: size 16px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 20px;
     position: absolute;
     left:40%;
     transform: translate(-50%,-50%);
 }
-
+/* 깃허브 버튼*/
 .btngit{
-    width:120px;
+    width:140px;
     height: 40px;
     background-color:#003cbd;
     color:#fff;
     box-shadow: 0 4px
     16px rgba(0,79,255,0.3);
-    font: size 16px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 20px;
     position: absolute;
@@ -62,4 +179,11 @@ button:focus{
 }
 button:hover{
     background-color: rgba(0,79,255,0.9);
+}
+
+.text{
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+    font-family: 바탕;
 }
